@@ -19,23 +19,48 @@ body {
 
 
 /* Styling for the first name */
-.firstname h1 {
+/* .firstname h1 {
+    position: absolute;
+    font-size: 200px;
+    top: 0px;
+    left: 300px;
+} */
+
+/* Styling for the last name */
+/* .lastname h1 {
+    position: absolute;
+    font-size: 200px;
+    right: 270px;
+    bottom: 200px;
+} */
+
+/* Styling for the headshot */
+/* .headshot img {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    border-radius: 50px;
+    left: 450px;
+    bottom: 150px;
+} */
+
+.firstname {
     position: absolute;
     font-size: 200px;
     top: 0px;
     left: 300px;
 }
 
-/* Styling for the last name */
-.lastname h1 {
+/* Last Name Styling */
+.lastname {
     position: absolute;
     font-size: 200px;
     right: 270px;
     bottom: 200px;
 }
 
-/* Styling for the headshot */
-.headshot img {
+/* Headshot Styling */
+.headshot {
     position: absolute;
     width: 250px;
     height: auto;
@@ -43,6 +68,59 @@ body {
     left: 450px;
     bottom: 150px;
 }
+
+/* General Animation Styles */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Animation Classes */
+.slide-in-left {
+    animation: slideInLeft 1.5s ease-out;
+}
+
+.slide-in-right {
+    animation: slideInRight 1s ease-out;
+    animation-delay: 0.75s;
+}
+
+.slide-in-bottom {
+    animation: slideInBottom 1s ease-out;
+    animation-delay: 1.25s;
+}
+
+.animate {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 /* Navigation styling (Footer-like behavior) */
 .nav-links {
