@@ -1,0 +1,125 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 208, 214);
+    color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+/* Styling for the first name */
+.firstname h1 {
+    position: absolute;
+    font-size: 200px;
+    top: 0px;
+    left: 300px;
+}
+
+/* Styling for the last name */
+.lastname h1 {
+    position: absolute;
+    font-size: 200px;
+    right: 270px;
+    bottom: 200px;
+}
+
+/* Styling for the headshot */
+.headshot img {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    border-radius: 50px;
+    left: 450px;
+    bottom: 150px;
+}
+
+/* Navigation styling (Footer-like behavior) */
+.nav-links {
+    position: fixed; /* Fix it to the bottom of the viewport */
+    bottom: 0; /* Align to the bottom */
+    left: 0;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(241, 208, 214); 
+    padding: 5px 0;
+    margin: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: rgb(150, 50, 100);
+}
+
+/* Header styling */
+.header3 h3 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+.about-container {
+    margin-top: -20px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p strong {
+    color: black;
+}
+
+div{
+    margin-top: 0px;
+}
+
+.resume-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+iframe, embed {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 700px;
+    height: 100vh;
+}
