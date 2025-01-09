@@ -17,33 +17,7 @@ body {
     height: 100vh;
 }
 
-
-/* Styling for the first name */
-/* .firstname h1 {
-    position: absolute;
-    font-size: 200px;
-    top: 0px;
-    left: 300px;
-} */
-
-/* Styling for the last name */
-/* .lastname h1 {
-    position: absolute;
-    font-size: 200px;
-    right: 270px;
-    bottom: 200px;
-} */
-
-/* Styling for the headshot */
-/* .headshot img {
-    position: absolute;
-    width: 250px;
-    height: auto;
-    border-radius: 50px;
-    left: 450px;
-    bottom: 150px;
-} */
-
+/* First Name Styling */
 .firstname {
     position: absolute;
     font-size: 200px;
@@ -172,13 +146,29 @@ body {
 
 /* Paragraph styling */
 .about-container {
-    margin-top: -20px;
+    /* margin-top: -20px;
     margin: 20px auto;
     padding: 10px;
     width: 60%;
     background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;s
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.beyond-tech-container {
+    /* margin-top: 30px; */
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
 }
 
 p strong {
