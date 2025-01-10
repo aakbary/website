@@ -121,8 +121,8 @@ body {
 
 /* Navigation styling (Footer-like behavior) */
 .nav-links {
-    position: fixed; /* Fix it to the bottom of the viewport */
-    bottom: 0; /* Align to the bottom */
+    position: fixed;
+    bottom: 0;
     left: 0;
     text-align: center;
     width: 100%;
@@ -169,13 +169,6 @@ body {
 
 /* Paragraph styling */
 .about-container {
-    /* margin-top: -20px;
-    margin: 20px auto;
-    padding: 10px;
-    width: 60%;
-    background-color: white;
-    border-radius: 5px;s
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     background-color: white;
     padding: 20px;
     margin: 10px auto;
@@ -185,7 +178,6 @@ body {
 }
 
 .beyond-tech-container {
-    /* margin-top: 30px; */
     background-color: white;
     padding: 20px;
     margin: 20px auto;
@@ -213,14 +205,13 @@ div {
 .images img{
     width: auto;
     height: 170px;
-    /* border-radius: 8px; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
     overflow: visible;
 }
 
 .images img:hover {
-    transform: scale(1.1); /* Enlarge on hover */
+    transform: scale(1.5);
 }
 
 .resume-container {
@@ -249,5 +240,5 @@ iframe, embed {
     text-decoration: none;
 }
 .social-icons a:hover {
-    color: blue;
+    color: red;
 }
