@@ -14,3 +14,17 @@ const observer = new IntersectionObserver(entries => {
 
 // Observe each animated element
 animateElements.forEach(el => observer.observe(el));
+
+const images = document.querySelectorAll('.image-gallery img');
+    images.forEach(img => {
+        img.addEventListener('mouseover', () => {
+            img.style.transform = 'scale(1.1)';
+            img.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.3)';
+        });
+
+        img.addEventListener('mouseout', () => {
+            img.style.transform = 'scale(1)';
+            img.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+        });
+    });
+
