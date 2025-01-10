@@ -28,3 +28,15 @@ const images = document.querySelectorAll('.image-gallery img');
         });
     });
 
+    // Optional: Add interaction on click
+const logo = document.getElementById('interactive-logo');
+
+// Add an event listener to handle click behavior
+logo.addEventListener('click', () => {
+    // Redirect to the homepage (this is redundant if the <a> already handles it)
+    window.location.href = 'index.html';
+
+    // Optional: Add any additional click effect, like showing a message
+    console.log('Redirecting to the homepage!');
+});
+
