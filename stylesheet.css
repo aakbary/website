@@ -9,7 +9,7 @@ body {
     padding: 0;
     background-color: rgb(241, 208, 214);
     color: black;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Arial, serif, sans-serif;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -48,6 +48,7 @@ body {
     font-size: 200px;
     top: 0px;
     left: 300px;
+    color: rgb(116, 95, 68);
 }
 
 /* Last Name Styling */
@@ -56,12 +57,13 @@ body {
     font-size: 200px;
     right: 270px;
     bottom: 200px;
+    color: rgb(116, 95, 68);
 }
 
 /* Headshot Styling */
 .headshot {
     position: absolute;
-    width: 250px;
+    width: 350px;
     height: auto;
     border-radius: 50px;
     left: 450px;
@@ -158,7 +160,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: rgb(150, 50, 100);
+    color: rgb(116, 95, 68);
 }
 
 /* Header styling */
@@ -237,10 +239,10 @@ iframe, embed {
 }
 .social-icons a {
     margin: 0 10px;
-    color: #555;
+    color: black;
     font-size: 24px;
     text-decoration: none;
 }
 .social-icons a:hover {
-    color: red;
+    color: rgb(116, 95, 68);
 }
