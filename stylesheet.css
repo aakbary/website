@@ -246,3 +246,49 @@ iframe, embed {
 .social-icons a:hover {
     color: rgb(116, 95, 68);
 }
+
+@media only screen and (max-width: 1024px) {
+    /* Adjust large font sizes */
+    .firstname,
+    .lastname {
+        font-size: 80px;
+        position: static;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .headshot {
+        position: static;
+        width: 250px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .container {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .social-icons {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .logo {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #interactive-logo {
+        width: 150px;
+    }
+}
+
