@@ -248,7 +248,7 @@ iframe, embed {
 }
 
 /* iPad Portrait (vertical) */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
     .firstname,
     .lastname {
         font-size: 80px;
