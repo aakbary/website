@@ -306,7 +306,7 @@ iframe, embed {
     .headshot {
         position: static !important;
         width: 250px;
-        margin: 20px auto;
+        margin: 5px auto;
         display: block;
     }
 
