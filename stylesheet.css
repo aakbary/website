@@ -282,9 +282,10 @@ iframe, embed {
     }
 
     .logo {
-        position: static;
-        text-align: center;
-        margin-top: 10px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        margin: 0;
     }
 
     #interactive-logo {
@@ -308,7 +309,7 @@ iframe, embed {
         margin: 20px auto;
         display: block;
     }
-    
+
     .container {
         text-align: center;
         padding: 30px;
