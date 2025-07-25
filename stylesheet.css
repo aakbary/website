@@ -247,53 +247,5 @@ iframe, embed {
     color: rgb(116, 95, 68);
 }
 
-/* iPad Portrait (vertical) */
-@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
-    .firstname,
-    .lastname {
-        font-size: 80px;
-        position: static;
-        text-align: center;
-        margin: 20px 0;
-        margin-top: 20px;
-    }
-
-    .headshot {
-        position: static;
-        width: 220px;
-        display: block;
-        margin: 10px auto;
-        margin-top: 30px;
-    }
-
-    .container {
-        text-align: center;
-        padding: 20px;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        font-size: 16px;
-        padding: 8px 0;
-    }
-
-    .social-icons {
-        position: static;
-        margin: 20px auto;
-        text-align: center;
-    }
-
-    .logo {
-        position: absolute;
-        top: 5px;
-        right: 20px;
-        margin: 0;
-    }
-
-    #interactive-logo {
-        width: 200px;
-    }
-}
-
 
 
