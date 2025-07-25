@@ -297,7 +297,7 @@ iframe, embed {
 
 
 /* iPad Landscape (horizontal) */
-@media screen and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 1024px) and (orientation: landscape) {
     .container {
         position: relative;
         width: 100%;
@@ -305,23 +305,23 @@ iframe, embed {
     }
 
     .firstname {
-        font-size: 90px !important;
+        font-size: 100px !important;
         position: absolute !important;
-        left: 5%;         /* top-left */
+        left: 25%;         /* top-left */
         top: 50px;
     }
 
     .lastname {
-        font-size: 90px !important;
+        font-size: 100px !important;
         position: absolute !important;
-        left: 40%;        /* more to the right */
-        top: 160px;       /* further down */
+        left: 50%;
+        top: 160px;
     }
 
     .headshot {
-        width: 230px;
+        width: 270px;
         position: absolute !important;
-        left: 20%;        /* beneath "Akbary", pulled slightly left */
+        left: 20%;
         top: 300px;
         display: block;
     }
@@ -334,7 +334,7 @@ iframe, embed {
 
     .social-icons {
         position: absolute;
-        bottom: 100px;
+        bottom: 50px;
         left: 50%;
         transform: translateX(-50%);
     }
