@@ -1,3 +1,18 @@
+:root{
+  --hero-pad: clamp(24px, 5vw, 64px);
+  --name-size: clamp(72px, 12vw, 200px); /* scales from laptops to big screens */
+  --logo-size: clamp(80px, 10vw, 200px);
+  --headshot-size: clamp(220px, 28vw, 360px);
+}
+
+.hero {
+  position: relative;
+  width: min(1200px, 92vw);
+  margin: 0 auto;
+  padding: var(--hero-pad);
+  height: clamp(520px, 70vh, 820px);
+}
+
 html, body{
     margin: 0;
     padding: 0;
@@ -44,30 +59,36 @@ body {
 
 /* First Name Styling */
 .firstname {
-    position: absolute;
-    font-size: 200px;
-    top: 0px;
-    left: 300px;
+    position: relative;
+    /* font-size: 200px; */
+    top: 150px;
+    right: 120px;
+    /* color: rgb(116, 95, 68); */
+    font-size: var(--name-size);
     color: rgb(116, 95, 68);
+    font-weight: 700;
+    margin: 0;
 }
 
 /* Last Name Styling */
 .lastname {
-    position: absolute;
+    position: relative;
     font-size: 200px;
-    right: 270px;
-    bottom: 200px;
+    left: 270px;
+    bottom: 5px;
     color: rgb(116, 95, 68);
+    font-size: var(--name-size);
 }
 
 /* Headshot Styling */
 .headshot {
-    position: absolute;
-    width: 350px;
+    position: relative;
+    width: 300px;
     height: auto;
     border-radius: 50px;
-    left: 450px;
-    bottom: 150px;
+    /* left: 450px; */
+    right: 50px;
+    bottom: 250px;
 }
 
 /* General Animation Styles */
