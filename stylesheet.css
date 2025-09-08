@@ -11,12 +11,14 @@
   margin: 0 auto;
   padding: var(--hero-pad);
   height: clamp(520px, 70vh, 820px);
+  overflow: hidden;
 }
 
 html, body{
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 body {
