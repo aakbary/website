@@ -259,9 +259,9 @@ iframe, embed {
 /* working on project tab */
 
 .card{
-  display:block;                      /* so the <a> behaves like a card */
-  text-decoration:none;               /* remove underline */
-  color: inherit;                     /* keep your text color */
+  display:block;
+  text-decoration:none;               
+  color: inherit;                     
   background: rgba(255,255,255,0.25);
   border-radius: 20px;
   padding: 18px;
@@ -270,6 +270,20 @@ iframe, embed {
   cursor: pointer;
   margin: 0 12px 12px 0;
 }
+
+.projects > h2{
+  text-align: center;
+}
+
+.more-projects-text{
+  text-align: center;
+  margin: 24px 0 80px;          
+  font-size: clamp(14px, 1.8vw, 16px);
+  color: black;
+  cursor: default;             
+  user-select: text;           
+}
+
 .card:hover{ transform: translateY(-2px); box-shadow: 0 10px 26px rgba(0,0,0,0.08); }
 .card:focus-visible{ outline: 3px solid rgba(116,95,68,.5); outline-offset: 3px; }
 
