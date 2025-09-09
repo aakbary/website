@@ -18,7 +18,6 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
 }
 
 body {
@@ -63,8 +62,8 @@ body {
 .firstname {
     position: relative;
     /* font-size: 200px; */
-    top: 150px;
-    right: 120px;
+    top: 250px;
+    left: 250px;
     /* color: rgb(116, 95, 68); */
     font-size: var(--name-size);
     color: rgb(116, 95, 68);
@@ -76,22 +75,22 @@ body {
 .lastname {
     position: relative;
     font-size: 200px;
-    left: 270px;
-    bottom: 5px;
+    left: 250px;
+    bottom: -100px;
     color: rgb(116, 95, 68);
     font-size: var(--name-size);
 }
 
 /* Headshot Styling */
 .headshot {
-    position: relative;
-    width: 300px;
-    height: auto;
-    border-radius: 50px;
-    /* left: 450px; */
-    right: 50px;
-    bottom: 250px;
+  position: relative;
+  width: clamp(500px, 28vw, 360px);
+  height: auto;
+  border-radius: 50px;
+  right: 300px;
+  bottom: 450px;
 }
+
 
 /* General Animation Styles */
 @keyframes slideInLeft {
@@ -116,16 +115,6 @@ body {
     }
 }
 
-@keyframes slideInBottom {
-    from {
-        transform: translateY(100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
 
 /* Animation Classes */
 .slide-in-left {
@@ -134,10 +123,6 @@ body {
 
 .slide-in-right {
     animation: slideInRight 1.5s ease-out;
-}
-
-.slide-in-bottom {
-    animation: slideInBottom 1.5s ease-out;
 }
 
 .animate {
