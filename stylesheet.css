@@ -257,6 +257,7 @@ iframe, embed {
 }
 
 /* working on project tab */
+
 .card{
   display:block;                      /* so the <a> behaves like a card */
   text-decoration:none;               /* remove underline */
@@ -267,6 +268,7 @@ iframe, embed {
   box-shadow: 0 6px 20px rgba(0,0,0,0.06);
   transition: transform .15s ease, box-shadow .15s ease;
   cursor: pointer;
+  margin: 0 12px 12px 0;
 }
 .card:hover{ transform: translateY(-2px); box-shadow: 0 10px 26px rgba(0,0,0,0.08); }
 .card:focus-visible{ outline: 3px solid rgba(116,95,68,.5); outline-offset: 3px; }
