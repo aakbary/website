@@ -1,0 +1,172 @@
+/* Tablets and smaller */
+@media (max-width: 768px) {
+    /* responsive edits here */
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100dvh;
+        overflow: hidden;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        height: 100dvh;
+        overflow: hidden;
+    }
+
+
+    /* NAME */
+
+    .firstname {
+        position: absolute;
+        top: clamp(150px, 22vh, 200px);
+        left: 7%;
+        margin: 0;
+        font-size: clamp(62px, 19vw, 84px);
+        line-height: 1;
+    }
+
+
+    .lastname {
+        position: absolute;
+        top: clamp(235px, 30vh, 300px);
+        right: 4%;
+        left: auto;
+        margin: 0;
+        font-size: clamp(62px, 19vw, 84px);
+        line-height: 1;
+    }
+
+
+    /* PHOTO*/
+
+    .headshot {
+        position: absolute;
+        width: clamp(210px, 59vw, 260px);
+        height: auto;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        bottom: clamp(195px, 24vh, 230px);
+        border-radius: 40px;
+    }
+    /* LOGO  */
+    .logo {
+        position: fixed;
+        top: 20px;
+        right: 18px;
+        z-index: 100;
+    }
+
+    #interactive-logo {
+        width: clamp(150px, 100vw, 100px);
+        height: auto;
+    }
+
+    /* SOCIAL ICONS  */
+
+    .social-icons {
+        position: fixed;
+        bottom: 58px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        white-space: nowrap;
+        z-index: 100;
+    }
+
+
+    /* BOTTOM NAV  */
+
+    .nav-links {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 100;
+    }
+
+
+    .nav-links ul {
+        gap: clamp(15px, 5vw, 25px);
+    }
+
+
+    .nav-links a {
+        font-size: clamp(14px, 4vw, 16px);
+    }
+
+    /* ABOUT ME PAGE */
+    .about-page #interactive-logo {
+        width: clamp(80px, 22vw, 110px);
+    }
+
+    body.about-page {
+        height: auto;
+        min-height: 100dvh;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .about-page .images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding: 15px 20px 90px;
+    }
+
+    .about-page .images img {
+        width: 85%;
+        max-width: 300px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    /* Resume page */
+    body.resume-page {
+        height: 100dvh;
+        overflow: hidden;
+    }
+
+    .resume-page .resume-container {
+        width: 100%;
+        max-width: none;
+        height: 72dvh;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .resume-page .logo {
+    top: 5px;
+    right: 15px;
+    }
+
+    .resume-page #interactive-logo {
+        width: 100px;
+    }
+    .resume-page iframe,
+    .resume-page embed {
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 0;
+        display: block;
+    }
+}
