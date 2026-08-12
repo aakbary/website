@@ -61,7 +61,7 @@
         left: 50%;
         right: auto;
         transform: translateX(-50%);
-        bottom: clamp(195px, 24vh, 230px);
+        bottom: clamp(185px, 24vh, 230px);
         border-radius: 40px;
     }
     /* LOGO  */
