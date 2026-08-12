@@ -31,7 +31,14 @@ body {
     align-items: center;
     flex-direction: column;
     height: auto; 
-    min-height: 120dvh;
+    min-height: 100dvh;
+}
+
+body.index-page {
+    height: 100dvh;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .logo {
